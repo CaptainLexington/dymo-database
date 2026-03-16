@@ -1,0 +1,29 @@
+{
+  "label_makers": {
+    "1570": {
+      "name": "1570",
+      "tapes:" ["3/8", "1/4"],
+      "wheels": ["3000-24", "906659"]
+  },
+  "wheels": {
+    "3000-24" {
+      "name": "3000-24",
+      "orientation": "vertical", // Options: vertical, horizontal
+      "letter_style": "block", // Options: Block, Cursivea
+      "letter_height": "160", //in thousandths of an inch
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ→←↑↓./aco&-012345689"
+    },
+    "906659": {
+      "name": "906659",
+      "orientation": "horizontal",
+      "letter_style": "block",
+      "letter_height": "180",
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZ./0123456789"
+    }
+  },
+  "tapes":[
+    "3/8",
+    "1/4",
+    "1/2"
+  ]
+}
